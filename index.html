@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <!--bootstrap    -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light bg-secondary  ">
+    <div
+      class="navbar-div container-fluid bg-secondary bg-gradient shadow fixed-top mb-1 d-flex justify-content-between">
+      <!--     icon + website name -->
+      <a class="navbar-brand my-2 w-25" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+            d="M12.014 6.54s2.147-3.969 3.475-6.54l8.511 8.511c-2.583 1.321-6.556 3.459-6.556 3.459l-5.43-5.43zm-8.517 6.423s-1.339 5.254-3.497 8.604l.827.826 3.967-3.967c.348-.348.569-.801.629-1.288.034-.27.153-.532.361-.74.498-.498 1.306-.498 1.803 0 .498.499.498 1.305 0 1.803-.208.209-.469.328-.74.361-.488.061-.94.281-1.288.63l-3.967 3.968.826.84c3.314-2.133 8.604-3.511 8.604-3.511l4.262-7.837-3.951-3.951-7.836 4.262z" />
+        </svg> Pen Pals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+        <form id='search-form' class="position-relative d-flex w-50 " role="search">
+          <input id='search-input' class="form-control me-2  " type="search" placeholder="Search By Name"
+            aria-label="Search">
+          <button class="btn btn-light lh-1 position-absolute top-50 end-0 translate-middle" type="submit"><svg
+              xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 24">
+              <path
+                d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z" />
+            </svg></button>
+        </form>
+        <ul class="navbar-nav my-auto ">
+          <li class="nav-item my-auto ">
+            <a class="nav-link fw-bold text-warning" href="./write away.html">Write Away</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carouselExampleCaptions -->
+  <div class=" w-100 vh-100 d-flex">
+    <div class="w-75 vh-100">
+      <div id="carouselExampleCaptions" class="carousel slide vh-100" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-innervh-100">
+          <div class="carousel-item active">
+            <img src="./photos//投影片1.jpg" class="carousel-img d-block w-100 vh-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Connecting the world by your letters</h5>
+              <p>Enjoying the time with postcard and pen</p>
+            </div>
+          </div>
+          <div class="carousel-item vh-100">
+            <img src="./photos//投影片2.jpg" class="carousel-img d-block w-100 vh-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class='text-dark fw-bold text-end'> talking and chating .... </h5>
+              <p class='text-dark text-end'> How about some peaceful time ?</p>
+            </div>
+          </div>
+          <div class="carousel-item vh-100">
+            <img src="./photos//投影片3.jpg" class="carousel-img d-block w-100 vh-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>You are not alone at all</h5>
+              <p>At herer, you could send a letter to anyone with your story</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--introduce card  -->
+    <div class='d-flex  flex-column justify-content-evenly align-items-center p-2 vh-100 '>
+      <div class="shadow">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header">
+            <h5 class="card-title mb-0 p-1 bg-warning p-2 text-dark bg-opacity-10"> What is Pen Pals ?</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              This is a website couraging you to make friends by sending letter.<br />
+              You could also send your pen pals a postcard with your life story no matter today is the best or the
+              worst.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="shadow">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header">
+            <h5 class="card-title mb-0 p-1 bg-warning p-2 text-dark bg-opacity-10"> How does it work ?</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text"> First,pick a received from all. Then, add to Write Away. <br />
+              If, you add each other in Write Away.<br /> You could send out your first letter. </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- data-panel  -->
+  <!--country bar  -->
+  <div id="data-panel">
+    <div class="my-3 bg-light  ">
+      <h3 class="text-light fw-bold w-25 bg-secondary p-1 text-center rounded-end shadow">Popular Country</h3>
+      <div id="select-country" class="conrainer m-3 d-flex">
+
+      </div>
+
+    </div>
+
+    <!--   see all user -->
+    <h5 id='see-all' class="bg-warning bg-gradient text-center text-secondary fw-bold p-3 my-1 shadow">Pick a receiver
+      from all</h5>
+
+    <!-- user-panel  -->
+    <div id='user-panel' class="d-flex flex-wrap justify-content-center align-items-center py-2 ">
+
+
+    </div>
+  </div>
+
+  <!--     Pagination-->
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center ">
+    </ul>
+  </nav>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="user-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="user-modal-name">Guillaume Vincent</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <dl class="row p-3 pb-0">
+            <dt class="col-sm-3">Age</dt>
+            <dd class="col-sm-9" id='user-modal-age'></dd>
+
+            <dt class="col-sm-3">Gender</dt>
+            <dd class="col-sm-9" id='user-modal-gender'></dd>
+
+            <dt class="col-sm-3">Region</dt>
+            <dd class="col-sm-9" id='user-modal-region'></dd>
+
+            <dt class="col-sm-3 text-truncate">Birthday</dt>
+            <dd class="col-sm-9" id='user-modal-birthday'></dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9" id='user-modal-email'><a href=""></a> </dd>
+          </dl>
+          </dd>
+          </dl>
+          <div class="row" id="user-modal-image" class=" ">
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id='btn-add-write' data-id="" title='add to write away' type="button" class="btn btn-warning"
+            data-bs-dismiss="modal">+</button>
+          <button type="button" id="btn-modal-close" class="btn btn-secondary " data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- bootstrap and popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./script.js"></script>
+
+  <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+  <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="dark" defer></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.country-catalog {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.country-catalog:hover {
+  opacity: 1;
+}
+
+.country-name {
+
+  text-align: center;
+  z-index: 5;
+}
+
+#see-all {
+  cursor: pointer;
+}
+
+#see-all:hover {
+  /*   background-color: rgba(0,0,0,0.4); */
+  transform: translateY(-5px);
+}
+
+.carousel-img {
+  object-fit: cover;
+}
+
+.navbar,
+.navbar-div {
+  height: 15vh;
+}
+
+#personal-card:hover {
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+#user-modal-img {
+  object-fit: cover;
+}
+
+p {
+  pointer-events: none;
+}
